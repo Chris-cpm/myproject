@@ -76,8 +76,8 @@ fi
 
 # Check if frontend file exists
 if [ ! -f "mindmate_frontend.py" ]; then
-    echo -e "${YELLOW}⚠️  mindmate_frontend.py not found${NC}"
-    echo "Please save the fixed frontend code as 'mindmate_frontend.py'"
+    echo -e "${YELLOW}⚠️  mindmate_front.py not found${NC}"
+    echo "Please save the fixed frontend code as 'mindmate_front.py'"
     echo ""
 fi
 
@@ -133,10 +133,10 @@ echo "================================"
 echo ""
 echo "Next steps:"
 echo "1. Ensure 'mindmate_backend.jac' exists in this directory"
-echo "2. Ensure 'mindmate_frontend.py' exists in this directory"
+echo "2. Ensure 'mindmate_front.py' exists in this directory"
 echo "3. Run the application:"
 echo ""
-echo -e "   ${GREEN}streamlit run mindmate_frontend.py${NC}"
+echo -e "   ${GREEN}streamlit run mindmate_front.py${NC}"
 echo ""
 echo "4. Browser will open at http://localhost:8501"
 echo ""
